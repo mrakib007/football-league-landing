@@ -11,6 +11,10 @@ body {
 .banner-section {
   background-color: #2d25a0;
 }
+.links a{
+  text-decoration: none;
+  color: #ffffff;
+}
 .top-banner {
   padding: 50px;
 }
@@ -67,7 +71,7 @@ body {
   width: 300px;
   height: 256px;
 }
-.highlight{
+.highlight {
   margin: 100px;
 }
 .highlight-corner {
@@ -77,10 +81,27 @@ body {
   align-items: center;
 }
 
-.highlight-heading h1{
+.highlight-heading h1 {
   font-size: 2.5em;
 }
 .highlight-image img {
   width: 567px;
   height: 427px;
+}
+.copyright-section{
+  margin: 70px;
+}
+.copyright-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.copyright-image img {
+  width: 483.87px;
+  height: 110px;
+}
+.copyright-icons img {
+  height: 30px;
+  width: 30px;
 }
